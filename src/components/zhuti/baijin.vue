@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="col-span-1 sm:col-span-2">
-        <div class="sm:flex shadow-md rounded-xl border-2 border-gray-300  sm:ml-4">
+        <div class="sm:flex shadow-md rounded-xl border-2 border-gray-300  sm:ml-4 ">
           <textmk />
         </div>
       </div>
