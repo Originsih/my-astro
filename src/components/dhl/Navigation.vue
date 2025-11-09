@@ -2,16 +2,15 @@
   <nav>
     <div class="sm:w-[1000px] mx-auto shadow-md rounded-xl h-16 bg-white">
         <div class="justify-between items-center h-16 px-4 grid grid-cols-1 w-full sm:grid-cols-3">
-            <div class="sm:block col-span-1 sm:col-span-1">
+            <div class="sm:block col-span-1 sm:col-span-1 ">
               <div class="flex items-center justify-between">
-                <div class="flex items-center">
-                  <img src="/images/photo.jpg" alt="示例图片" class="w-12 h-12 rounded-xl shadow-md mr-4"/>
+                <div class="hidden sm:flex items-center ">
+                  <img src="/images/30.png" alt="示例图片" class="w-12 h-12 rounded-xl shadow-md mr-4"/>
                   <h1 class="sm:text-gray-800 font-bold text-lg text-shadow-md">{{ Survivor }}</h1>
                 </div>
-                  <button class="w-12 h-12 sm:hidden rounded-full bg-gray-200 hover:bg-gray-300">
-                    <i class="fa-solid fa-bars"></i>
-                  </button>
+                  <Button/>
               </div>
+
           </div>
             <div class="hidden sm:block col-span-1 sm:col-span-1 ">
               <a href="/" class="text-gray-500 hover:text-pink-300 font-medium text-base sm:text-xl transition-colors mr-6">
@@ -42,12 +41,16 @@
 </template>
 
 <script>
+import Button from './Button.vue';
 export default {
   props: {
     name: {type: String, default: '首页'},
     logo: {type: String, default: '友联'},
     about: {type: String, default: '关于'},
     Survivor: {type: String, default: 'Survivor'},
+  },
+  components: {
+    Button
   }
 }
 </script>

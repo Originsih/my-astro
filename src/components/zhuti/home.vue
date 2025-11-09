@@ -54,69 +54,6 @@ export default {
         },
         {
           names: 'bootstrap',
-        },
-        {
-          names: 'angular',
-        },
-        {
-          names: 'electron',
-        },
-        {
-          names: 'uniapp',
-        },
-        {
-          names: 'flutter',
-        },
-        {
-          names: 'typescript',
-        },
-        {
-          names: 'docker',
-        },
-        {
-          names: 'kubernetes',
-        },
-        {
-          names: 'hadoop',
-        },
-        {
-          names: 'hive',
-        },
-        {
-          names: 'hbase',
-        },
-        {
-          names: 'zookeeper',
-        },
-        {
-          names: 'kafka',
-        },
-        {
-          names: 'rabbitmq',
-        },
-        {
-          names: 'linux',
-        },
-        {
-          names: 'nginx',
-        },
-        {
-          names: 'apache',
-        },
-        {
-          names: 'tomcat',
-        },
-        {
-          names: 'jenkins',
-        },
-        {
-          names: 'docker',
-        },
-        {
-          names: 'hadoop',
-        },
-        {
-          names: 'hive',
         }
       ]
     }

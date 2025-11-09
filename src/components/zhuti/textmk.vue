@@ -4,7 +4,7 @@
       <div class="text-lg font-bold text-cyan-400 border-b-2 border-cyan-200">
         <h1>{{ item.title }}</h1>
       </div>
-      <div class="mt-2 text-sm font-bold text-teal-500">
+      <div class="mt-2 text-sm font-bold text-pink-300">
         <p>时间：{{ item.time }}</p>
       </div>
       <div class="mt-2 text-sm font-bold">
@@ -19,6 +19,11 @@ export default {
   data() {
     return {
       source: [
+        {
+          title: "制作移动端点击按钮",
+          time: "2025年11月3日",
+          content: "制作移动端点击按钮，页面优化Ciallo～(∠・ω< )⌒★,最近制作缓慢，这个网站差不多是个人练习的项目，JavaScript，HTML，CSS，Tailwindcss，Vue，Netlify，Astro，还有很多技术要学习，慢慢来(๑・̀ㅂ・́)و✧"
+        },
         {
           title: "小小的页面优化",
           time: "2025年10月28日",
